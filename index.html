@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh">
+
 <head>
     <meta charset="UTF-8">
     <title>Conditional Redirect</title>
@@ -15,6 +16,15 @@
             var user = getUrlParameter('code');
             window.location.href = "https://bewildcard.com/i/1314";
         }
+    </script>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dc1d6eafa03afed15cbb62619a2296e0";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
     </script>
 </head>
 <body onload="redirectToInvite()">
